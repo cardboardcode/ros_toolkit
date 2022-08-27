@@ -7,5 +7,6 @@ This repository contains `.bash` scripts that automate certain tedious processes
 ## **How To Use**
 
 ```bash
-wget <url_to_script_in_specific_folder> 
+wget https://github.com/cardboardcode/ros_toolkit/raw/<branch_name>/<path_to_file>/<file_name>
+# Eg. wget https://github.com/cardboardcode/ros_toolkit/raw/main/install/foxy/install_debian.bash
 ```
