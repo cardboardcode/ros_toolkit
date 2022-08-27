@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
 
+# Copyright 2022 Bey Hao Yun
+# Static Analysis: shellcheck install_desktop.bash -x -e SC1091
+
 # Set Locale to UTF-8
 sudo apt-get update 
 sudo apt-get install -y locales
@@ -22,5 +25,3 @@ sudo apt-get install -y ros-foxy-desktop
 
 # Install colcon build tools
 sudo apt-get install -y python3-colcon-common-extensions
-
-
